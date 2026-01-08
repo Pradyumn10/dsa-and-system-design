@@ -38,6 +38,8 @@ class Solution:
                 total=total+data_dic[v]
             elif v in data_dic and (i!=0 and s[i-1:i+1] not in data_dic):
                 total=total+data_dic[v]
+            else:
+                continue
         return total
 
 romanInteger=Solution()
