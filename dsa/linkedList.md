@@ -8,44 +8,20 @@ There are 3 types of linked list:
 
 * Singly Linked List - It contains the position of next node,. It consumes very less space in comparison of other linked list types.
 Ex-
-    data
-    next->data
-          next->data
-                next->data
-                      next-->Null
-
+    ![alt text](image.png)
 * Doubly Linked List - It contains the in memory location of previous and next node. It takes more memory in comparison to singly linked list
 Ex-
-    Null<--prev<----
-           data    |
-           next-->prev<----
-                  data    |
-                  next-->prev
-                         data
-                         next-->Null
+    ![alt text](image-2.png)
 
 * Circular Linked List - Its same as singly or doubly linked list with head and tail connected, like a circle.
 Ex-
     Sinlge Circular Linked List
     
-    data<----------------
-    next-->data         |
-           next-->data  |
-                  next---
+    ![alt text](image-1.png)
     
     Double Circular Linked List
 
-             ------------------------  
-             |                      |
-  --------->prev<----               |
-  |         data    |               |
-  |         next-->prev<----        |
-  |                data    |        |   
-  |                next-->prev<------      
-  |                       data      
-  |                       next---
-  |                             |
-  -------------------------------
+    ![alt text](image-3.png)
 
 #### Implementing a Singly Linked List
 ```python
