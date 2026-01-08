@@ -12,10 +12,10 @@ There are 3 types of linked list:
     ![alt text](image-2.png)
 
 * Circular Linked List - Its same as singly or doubly linked list with head and tail connected, like a circle. <br>
-    Sinlge Circular Linked List
+    Sinlge Circular Linked List <br>
     ![alt text](image-1.png)
-    
-    Double Circular Linked List
+    <br>
+    Double Circular Linked List <br>
     ![alt text](image-3.png)
 
 #### Implementing a Singly Linked List
