@@ -7,20 +7,15 @@ Ex- [2,3,5] (list)
 There are 3 types of linked list:
 
 * Singly Linked List - It contains the position of next node,. It consumes very less space in comparison of other linked list types.
-Ex-
     ![alt text](image.png)
 * Doubly Linked List - It contains the in memory location of previous and next node. It takes more memory in comparison to singly linked list
-Ex-
     ![alt text](image-2.png)
 
-* Circular Linked List - Its same as singly or doubly linked list with head and tail connected, like a circle.
-Ex-
+* Circular Linked List - Its same as singly or doubly linked list with head and tail connected, like a circle. <br>
     Sinlge Circular Linked List
-    
     ![alt text](image-1.png)
     
     Double Circular Linked List
-
     ![alt text](image-3.png)
 
 #### Implementing a Singly Linked List
