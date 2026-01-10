@@ -20,6 +20,6 @@ class Solution:
 
 
 valid=Solution()
-#print(Solution.isValid(valid, s = "()"))
-#print(Solution.isValid(valid, s = "([)"))
+print(Solution.isValid(valid, s = "()"))
+print(Solution.isValid(valid, s = "([)"))
 print(Solution.isValid(valid, s = "[({})]"))
